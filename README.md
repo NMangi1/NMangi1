@@ -1,5 +1,4 @@
-Hello! I'm Nik, and this is where I plan to put my "portfolio": 
-a somewhat random collection of projects/tasks that I'm working on to sharpen my skills.
+This is a somewhat random collection of projects/tasks that I'm working on to sharpen/improve my skills.
 
 | Project Link  | Completion Date | Tools | Project Description |
 | -------- | -------- | -------- | -------- |
