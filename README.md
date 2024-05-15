@@ -3,7 +3,7 @@ a somewhat random collection of projects/tasks that I'm working on to sharpen my
 
 | Project Link  | Completion Date | Tools | Project Description |
 | -------- | -------- | -------- | -------- |
-| [Crime Data](https://github.com/NMangi1/NMangi1/blob/main/Crime%20Data%20Challenge.md) | May 2024 | SQL, Tableau | Visualizing World Crime Data, first part of a few|
+| [Crime Data](https://github.com/NMangi1/NMangi1/blob/main/Crime%20Data%20Challenge.md) | May 2024 | SQL, Tableau | Simple visualization of World Crime Data|
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 | Row 2, Col 4 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 | Row 3, Col 4 |
 
