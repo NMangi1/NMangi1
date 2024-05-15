@@ -1,4 +1,4 @@
-Here is my Crime By Country Tableau dashboard that I created
+This is a simple dashboard I created using Tableau to depict Crime Index by Country:
 
 ![image](https://github.com/NMangi1/NMangi1/assets/169910014/22fc4fef-756e-402b-8e69-77550d954285)
 
