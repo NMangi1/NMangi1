@@ -1,3 +1,5 @@
+To view my projects, [click here.](https://github.com/NMangi1/NMangi1/blob/2c8115c38dbda05a49121cfb5e12083698bfce5d/Projects.md)
+
 This is a somewhat random collection of projects/tasks that I'm working on to sharpen/improve my skills.
 
 | Project Link  | Completion Date | Tools | Project Description |
