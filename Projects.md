@@ -1,4 +1,4 @@
-This is a somewhat random collection of projects/tasks that I'm working on to sharpen/improve my skills.
+This is a somewhat random collection of projects/tasks that I'm working on to sharpen/improve my skills; primarily in SQL and Tableau.
 
 | Project Link  | Completion Date | Tools | Project Description |
 | -------- | -------- | -------- | -------- |
