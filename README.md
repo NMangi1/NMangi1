@@ -6,8 +6,8 @@ The purpose of this portfolio is sharpen and display my skills in:
 * Creating Dashboards and visualizations using Tableau
 * Deeper anaylsis, including analysis of variance and linear regression modeling using R
   
-Languages: SQL, R
-Database Management System: MSSQL
+Languages: SQL, R \
+Database Management System: MSSQL \
 Tools: Tableau
 
 To view projects that I've completed and posted thus far, [click here.](https://github.com/NMangi1/NMangi1/blob/2c8115c38dbda05a49121cfb5e12083698bfce5d/Projects.md)
