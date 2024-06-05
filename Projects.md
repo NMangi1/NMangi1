@@ -1,4 +1,4 @@
-This is a somewhat random collection of projects/tasks that I'm working on to sharpen/improve my skills; primarily in SQL and Tableau.
+This is a somewhat random collection of projects/tasks that I'm working on to sharpen/improve my skills; primarily in SQL and Tableau. Projects are uploaded as they are completed (ongoing as of June 2024).
 
 | Project Link  | Completion Date | Tools | Project Description |
 | -------- | -------- | -------- | -------- |
