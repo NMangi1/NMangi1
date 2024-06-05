@@ -8,7 +8,7 @@ The purpose of this portfolio is sharpen and display my skills in:
   
 Languages: SQL, R \
 Database Management System: MSSQL \
-Tools: Tableau
+Tools: Excel, Tableau
 
 To view projects that I've completed and posted thus far, [click here.](https://github.com/NMangi1/NMangi1/blob/2c8115c38dbda05a49121cfb5e12083698bfce5d/Projects.md)
 
