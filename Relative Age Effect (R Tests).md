@@ -41,6 +41,7 @@ birth_month_counts <- NHLData %>%
 print(birth_month_counts)
 ```
 | BirthMonth | Count |
+| ---------- | ----- |
 |     1      |  407  |
 |     2      |  406  |
 |     3      |  398  |
