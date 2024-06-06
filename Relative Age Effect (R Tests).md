@@ -1,6 +1,24 @@
 To ensure that the relative age effect was indeed impacting hockey players according to their birth months, I conducted exploratory tests to find out if the distribution of successful hockey players according to their birth month was statistically significant.
 
-To begin, I collected NHL data and read it into R. I assigned column names and previewed.
+To begin, I collected the data by using a webscraper written in R:
+
+```R
+library(rvest)
+
+url <- "https://www.nhl.com/hurricanes/roster"
+
+page <- read_html(url)
+
+roster_table <- page %>%
+  html_nodes("table.table") %>%
+  html_table(fill = TRUE)
+
+roster_df <- as.data.frame(roster_table[[1]])
+
+print(head(roster_df))
+```
+
+I read the scraped data into R. I assigned column names and previewed.
 
 ```R
 file_path <- "C:/Users/NikMa/Downloads/NHLDATA.csv"
@@ -40,6 +58,8 @@ birth_month_counts <- NHLData %>%
 
 print(birth_month_counts)
 ```
+The output showed the following:
+
 | BirthMonth | Count |
 | ---------- | ----- |
 |     1      |  407  |
@@ -54,4 +74,37 @@ print(birth_month_counts)
 |    10      |  271  |
 |    11      |  225  |
 |    12      |  251  |
+
+For the Chi-Square test, I want to create the expected frequency for each month, assuming a uniform distribution.
+
+```R
+total_players <- sum(birth_month_counts$count)
+print(total_players)
+
+expected_frequencies <- rep(total_players / 12, 12)
+```
+I performed the Chi-Square test:
+
+```R
+chi_square_test <- chisq.test(birth_month_counts$count, p = expected_frequencies / total_players)
+```
+
+I got the following output: 
+
+X-squared = 154.05, df = 11, p-value < 2.2e-16
+
+Overall, the output suggests that there is a significant deviation from the expected distribution of birth months in hockey, indicating the presence of a relative age effect (RAE) where players born earlier in the year are overrepresented compared to players born later in the year.
+
+Lastly, before exporting the data to Tableau, I added a new column for month names and wrote the new file out to my desktop.
+
+```R
+month_names <- month.abb[unique(NHLData$BirthMonth)]
+NHLData$MonthName <- month_names[NHLData$BirthMonth]
+
+output_file_path <- "C:/Users/User1/Downloads/NHLData_with_MonthNames.csv"
+write.csv(NHLData, file = output_file_path, row.names = FALSE)
+```
+
+
+
 
