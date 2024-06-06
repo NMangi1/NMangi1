@@ -2,5 +2,6 @@ This is a somewhat random collection of projects/tasks that I'm working on to sh
 
 | Project Link  | Completion Date | Tools | Project Description |
 | -------- | -------- | -------- | -------- |
+| [Relative Age Effect (Hockey)](https://github.com/NMangi1/NMangi1/blob/main/Relative%20Age%20Effect%20(Hockey).md) | June 2024 | Excel, SQL, Tableau | Visualization of Relative Age Effect In Hockey.| 
 | [Crime Data](https://github.com/NMangi1/NMangi1/blob/main/Crime%20Data%20Challenge.md) | May 2024 | SQL, Tableau | Simple visualization of World Crime Data|
 | [Netflix Data (unavailable)](#https://github.com/NMangi1/NMangi1/blob/4ecd271c82551a05e0868f150952b9fcbf77b7e2/Netflix%20Data%20Challenge.md) | May 2024 | SQL, Tableau | Simple visualization of a few Netflix stats. Currently unavailable due to ongoing modifications.|
