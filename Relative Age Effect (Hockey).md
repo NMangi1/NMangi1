@@ -48,3 +48,26 @@ INNER JOIN
 ON 
     i.FullName = c.Name
 ```
+I also used a number of calculated fields in Tableu, in order to be able to work with the month formatting:
+
+```SQL
+DATENAME('month', MAKEDATE(2000, [Birth Month], 1))
+```
+
+And assign each month to its subsequent quarter:
+
+```SQL
+IF [Name of Month] = "January" THEN "Q1"
+ELSEIF [Name of Month] = "February" THEN "Q1"
+ELSEIF [Name of Month] = "March" THEN "Q1"
+ELSEIF [Name of Month] = "April" THEN "Q2"
+ELSEIF [Name of Month] = "May" THEN "Q2"
+ELSEIF [Name of Month] = "June" THEN "Q2"
+ELSEIF [Name of Month] = "July" THEN "Q3"
+ELSEIF [Name of Month] = "August" THEN "Q3"
+ELSEIF [Name of Month] = "September" THEN "Q3"
+ELSEIF [Name of Month] = "October" THEN "Q4"
+ELSEIF [Name of Month] = "November" THEN "Q4"
+ELSEIF [Name of Month] = "December" THEN "Q4"
+END
+```
