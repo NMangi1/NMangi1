@@ -1,0 +1,1 @@
+To ensure that the relative age effect was indeed impacting hockey players according to their birth months, I conducted exploratory tests to find out if the distribution of successful hockey players according to their birth month was statistically significat.
