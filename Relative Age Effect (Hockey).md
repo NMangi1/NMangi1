@@ -28,7 +28,7 @@ UPDATE dbo.info
 SET FullName = CONCAT(FirstName, ' ', LastName)
 ```
 
-Now I can join the tables.
+Now I can join the tables on players' last names.
 
 ```SQL
 SELECT 
