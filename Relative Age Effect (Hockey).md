@@ -10,7 +10,7 @@ This is a Tableu story that I created regarding the Relative Age Effect in Hocke
 
 In many youth hockey leagues, eligibility for age groups is determined by calendar year, typically January 1st. This means that players born in the early months of the year (e.g., January to March) are among the oldest in their age group, while those born later (e.g., October to December) are among the youngest. The older players may have physical and developmental advantages over their younger counterparts, leading to increased opportunities for selection and development. However, the relative age effect does not seem to go away as players enter adulthood. Remnants of the RAE in Ice Hockey can be seen all the way up to the NHL, as shown above.
 
-To begin, I gathered data on OHL Players and their birthdays. I previewed in Excel, and had no issues putting it into Tableau.
+To begin, I gathered data on OHL Players and their birthdays. I previewed and did some simple exploratory analysis using XLOOKUP and PivotTables in Excel, and had no issues putting it into Tableau.
 
 The NHL data, however, gave me problems. The birthdays AND stats for the players could only be gotten from seperate tables. One table used one column for the name, while the other broke it into two (first, last).
 To fix this issue, I made a new column that used the naming format of the first table in order to join the two tables on the name column.
