@@ -73,3 +73,5 @@ ELSEIF [Name of Month] = "November" THEN "Q4"
 ELSEIF [Name of Month] = "December" THEN "Q4"
 END
 ```
+
+A more detailed exploration of the statistical analysis conducted can be found [here.](https://github.com/NMangi1/NMangi1/blob/main/Relative%20Age%20Effect%20(R%20Tests).md) 
