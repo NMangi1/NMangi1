@@ -18,7 +18,7 @@ roster_df <- as.data.frame(roster_table[[1]])
 print(head(roster_df))
 ```
 
-I read the scraped data into R. I assigned column names and previewed.
+I repeated this with each teams roster, and read the scraped data into R. I assigned column names and previewed.
 
 ```R
 file_path <- "C:/Users/NikMa/Downloads/NHLDATA.csv"
