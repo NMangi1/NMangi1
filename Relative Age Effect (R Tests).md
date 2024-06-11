@@ -21,7 +21,7 @@ print(head(roster_df))
 I repeated this with each teams roster, and read the scraped data into R. I assigned column names and previewed.
 
 ```R
-file_path <- "C:/Users/NikMa/Downloads/NHLDATA.csv"
+file_path <- "C:/Users/User1/Downloads/NHLDATA.csv"
 NHLData <- read.csv(file_path, header = FALSE)
 head(NHLData)
 
