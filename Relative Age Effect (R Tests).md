@@ -105,6 +105,6 @@ output_file_path <- "C:/Users/User1/Downloads/NHLData_with_MonthNames.csv"
 write.csv(NHLData, file = output_file_path, row.names = FALSE)
 ```
 
-
+Accompanying visualizations with SQL code can be found [here](https://github.com/NMangi1/NMangi1/blob/main/Relative%20Age%20Effect%20(Hockey).md).
 
 
