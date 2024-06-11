@@ -1,4 +1,4 @@
-Hello, I'm Nik. A recent Mathematics graduate from Rowan looking to break into data/business analysis. 
+Hello, I'm Nicholas. A recent Mathematics graduate from Rowan looking to break into data/business analysis. 
 
 The purpose of this portfolio is sharpen and display my skills in:
 * SQL Querying 
